@@ -81,7 +81,7 @@ const Dashboard = () => {
         {/* Main Content */}
         <main className="flex-1">
           {selectedTab === "skilltest" && (
-            <div className="bg-white p-6 rounded-lg flex gap-10">
+            <div className="bg-white p-6 rounded-lg md:flex gap-10">
               <div>
                 <div>
                   <h1 className="text-lg font-normal mb-4">Skill Test</h1>
@@ -248,7 +248,7 @@ const Dashboard = () => {
                 </div>
               </div>
 
-              <div className="py-11 flex flex-col flex-grow max-w-lg w-full mx-auto">
+              <div className="py-11 flex flex-col flex-grow sm:max-w-lg w-full mx-auto">
                 {/* Skill Progress */}
                 <div className="mb-6 flex flex-col p-8 border rounded-lg">
                   <h2 className="text-lg font-bold mb-8">

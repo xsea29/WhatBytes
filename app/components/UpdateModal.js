@@ -46,8 +46,8 @@ const UpdateModal = ({ isOpen, onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-4/12">
+    <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-10">
+      <div className="bg-white p-6 rounded-lg shadow-lg w-7/12 sm:w-4/12">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-2xl font-bold">Update Scores</h2>
           <Image

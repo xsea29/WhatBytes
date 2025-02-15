@@ -8,7 +8,7 @@ const QuestionAnalysis = () => {
   const total = 15;
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md border w-fit">
+    <div className="bg-white p-6 rounded-lg shadow-md border sm:w-fit">
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-bold">Question Analysis</h2>
         <p className="text-blue-600 font-bold text-right">
